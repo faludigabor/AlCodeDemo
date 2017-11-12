@@ -1,4 +1,4 @@
-pageextension 50110 MenuItem    extends "Business Manager Role Center"
+pageextension 50110 MenuItem    extends "Sales Manager Role Center"
 {
     layout
     {
@@ -8,13 +8,27 @@ pageextension 50110 MenuItem    extends "Business Manager Role Center"
     actions
     {
         // Add changes to page actions here
-        addafter("Account Schedules"){
-            Action(ItemBlockReason){
-                Caption='Item Block Reason Codes';
-                trigger OnAction();
-                begin
-                    Page.Run(Page::BlockReasonList);
-                end;
+        addafter("Sales Line &Discounts")
+        {
+            group("Item Blocks"){
+                Caption='Item Blocks';
+                group(Masterdata){
+                    Caption='Master Data';
+                    
+                    Action(ItemBlockReason){
+                        Caption='Item Block Reason Codes';
+                        RunObject=page BlockReasonList;
+
+                        trigger OnAction();
+                        begin
+                            Message('Hello world');
+                            Page.RunModal(Page::BlockReasonList);
+                        
+                        end;
+                    }
+                    
+                }
+                
             }
         }
     }

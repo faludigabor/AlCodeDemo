@@ -18,7 +18,7 @@ pageextension 50102 ItemCardExtension extends "Item Card"
                 Caption ='Check Block reasons';
                 trigger OnAction();
                 begin
-                    alert('check block reason');
+                    Message('check block reason');
                 end;
             }
         }

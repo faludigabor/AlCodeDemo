@@ -13,6 +13,7 @@ tableextension 50100 ItemTableExtension extends Item
         {
             TableRelation=ItemBlockReason.ID;
             ValidateTableRelation = true;
+        
         }
 
         Modify("Block Reason")

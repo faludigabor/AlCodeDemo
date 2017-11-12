@@ -21,6 +21,13 @@ table 50100 ItemBlockReason
             Clustered = true;
         }
     }
+    fieldgroups
+    {
+        fieldgroup("DropDown";ID,ReasonText)
+        {
+            //not supported yet
+        }
+    }
     
     var
         myInt : Integer;
