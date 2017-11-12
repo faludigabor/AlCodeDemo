@@ -21,7 +21,6 @@ pageextension 50110 MenuItem    extends "Sales Manager Role Center"
 
                         trigger OnAction();
                         begin
-                            Message('Hello world');
                             Page.RunModal(Page::BlockReasonList);
                         
                         end;

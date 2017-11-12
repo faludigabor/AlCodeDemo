@@ -25,16 +25,23 @@ page 50105 BlockReasonList
         }
     }
     
-    // actions
-    // {
-    //     area(processing)
-    //     {
-    //         Action(ActionName)
-    //         {
-    //             trigger OnAction();
-    //             begin
-    //             end;
-    //         }
-    //     }
-    // }
+    actions
+    {
+    
+        area(Processing){
+            Action(GetDefaultData)
+            {
+                Image = GetBinContent;
+                
+                trigger OnAction();
+                var cu : Codeunit DemoHttpOperations;
+                begin
+                    cu.PopulateDefaultData();
+                   
+                end;
+            }
+            
+        }
+        
+    }
 }
