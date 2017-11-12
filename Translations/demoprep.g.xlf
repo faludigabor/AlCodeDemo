@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="demoprep">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 833760986 - Action 1452063569 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Blocks</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension - Action</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 833760986 - Action 975448000 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Master Data</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension - Action</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 833760986 - Action 4266220900 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Block Reason Codes</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension - Action</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1944357788 - Action 727310316 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Block reasons</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension - Action</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 581819414 - Field 2396275279 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EKAER jelentésre kötelezett</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 581819414 - Field 2030343100 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Reason Code</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 581819414 - Field 3766201988 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BlockReasonText</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 581819414 - Change 4008583839 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason for blocking</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Change</note>
+        </trans-unit>
+        <trans-unit id="Table 4266220900 - Field 3641927271 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ok Kód</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+        <trans-unit id="Table 4266220900 - Field 102453891 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zárolás oka</source>
+          <note from="Developer" annotates="general" priority="2" />
+          <note from="Xliff Generator" annotates="general" priority="3">Table - Field</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

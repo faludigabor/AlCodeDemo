@@ -22,7 +22,7 @@ codeunit 50111 HandleEvents
                 if sl.Type = Sl.Type::Item then
                     if item.Get(sl."No.") then
                         if item."Block Reason Code" <> '' then
-                            Error('Nem lehet könyvelni mert van olyan tétel ami egyedi blokoláson van');
+                            Error('You cannot post this document as at least one item is blocked with the BlockOMeter');
             until sl.Next = 0;
     end;
     

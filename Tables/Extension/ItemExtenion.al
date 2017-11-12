@@ -5,7 +5,7 @@ tableextension 50100 ItemTableExtension extends Item
         // Add changes to table fields here
         field(50100 ;"EKAER Applicable";Boolean)
         {
-            Caption = 'EKAER jelentésre kötelezett';
+            Caption = 'Is it Applicable for EKAER Sending?';
             
             
         }
@@ -33,10 +33,10 @@ tableextension 50100 ItemTableExtension extends Item
             Caption = 'Reason for blocking';
             trigger OnBeforeValidate();
             begin
-                if not rec."Block Reason".Contains('zárolva')
+                if not rec."Block Reason".Contains('blocked')
                 then
                     begin
-                        Message('Kérem add meg a zárolás okát');
+                        Message('Please explain in detail , include the -blocked- keyword!!');
                     end;
                     
             end;

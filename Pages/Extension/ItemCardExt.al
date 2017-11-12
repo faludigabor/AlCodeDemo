@@ -28,6 +28,19 @@ pageextension 50102 ItemCardExtension extends "Item Card"
             }
         }
     }
+    trigger OnOpenPage();
+    var mynotification : Notification;
+        reasoncodes : Record ItemBlockReason;
+    begin
+        if reasoncodes.Count() < 1 then
+            begin
+                mynotification.Scope := NotificationScope::LocalScope;
+                mynotification.Message := 'You may need to setup Default reason codes';
+                mynotification.AddAction('Show  me what to do.. :)',50112,'ShowListPageForReasonCodes');
+                mynotification.Send();
+
+            end;
+    end;
     
     var
         myInt: Integer;
