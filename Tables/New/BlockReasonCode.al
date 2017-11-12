@@ -3,14 +3,20 @@ table 50100 ItemBlockReason
 
     fields
     {
-        field(1;MyField;Integer)
+        field(50100;ID;Code[20])
         {
+            Caption='Ok Kód';
         }
+
+        field(50101;ReasonText;Text[100]){
+            Caption='Zárolás oka';
+        }
+
     }
 
     keys
     {
-        key(PK;MyField)
+        key(PK;ID)
         {
             Clustered = true;
         }

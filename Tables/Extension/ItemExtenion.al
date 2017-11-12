@@ -9,17 +9,23 @@ tableextension 50100 ItemTableExtension extends Item
             
             
         }
-        modify("Block Reason")
+        field(50101;"Block Reason Code";Code[20])
+        {
+            TableRelation=ItemBlockReason.ID;
+            ValidateTableRelation = true;
+        }
+
+        Modify("Block Reason")
         {
             Caption = 'Reason for blocking';
             trigger OnBeforeValidate();
             begin
-                if  Not rec."Block Reason".Contains('zárolva') 
+                if not rec."Block Reason".Contains('zárolva')
                 then
-                begin
-                   Message('Kérem add meg a zárolás okát');
-                end;
-                 
+                    begin
+                        Message('Kérem add meg a zárolás okát');
+                    end;
+                    
             end;
         }
     }
