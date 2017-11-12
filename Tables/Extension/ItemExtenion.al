@@ -13,9 +13,21 @@ tableextension 50100 ItemTableExtension extends Item
         {
             TableRelation=ItemBlockReason.ID;
             ValidateTableRelation = true;
-        
+            trigger OnValidate();
+            begin
+                rec.CalcFields(BlockReasonText);
+            end;
+            
+            
         }
-
+        field(50102;BlockReasonText;Text[100])
+        {
+            FieldClass = FlowField;
+            CalcFormula = lookup(ItemBlockReason.ReasonText Where(ID = field("Block Reason Code"))) ;
+            Editable = false;
+            // Enabled = false;
+        }
+        
         Modify("Block Reason")
         {
             Caption = 'Reason for blocking';
