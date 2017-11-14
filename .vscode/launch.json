@@ -1,11 +1,18 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "name": "Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "startupObjectId": 22
+        },
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "http://5e64cc0cf1c9",
+            "name": "Local docker dev server",
+            "server": "http://6142fbe022f6",
             "serverInstance": "nav",
             "authentication": "UserPassword",
             "startupObjectId": 22

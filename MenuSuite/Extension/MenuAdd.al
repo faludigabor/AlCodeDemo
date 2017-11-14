@@ -1,4 +1,4 @@
-pageextension 50110 MenuItem    extends "Sales Manager Role Center"
+pageextension 50110 MenuItem    extends "Order Processor Role Center"
 {
     layout
     {
@@ -8,7 +8,7 @@ pageextension 50110 MenuItem    extends "Sales Manager Role Center"
     actions
     {
         // Add changes to page actions here
-        addafter("Sales Line &Discounts")
+        addafter(Sales)
         {
             group("Item Blocks"){
                 Caption='Item Blocks';

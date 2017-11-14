@@ -8,11 +8,15 @@ pageextension 50102 ItemCardExtension extends "Item Card"
             
             }
         }
+        
         addafter("Block Reason Code"){
             field(BlockReasonText;BlockReasonText){
             
             }
         }
+        // modify(Blocked){
+        //     Visible = false;
+        // }
     }
     
     actions

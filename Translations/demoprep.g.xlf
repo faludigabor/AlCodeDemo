@@ -24,7 +24,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension - Action</note>
         </trans-unit>
         <trans-unit id="TableExtension 581819414 - Field 2396275279 - Property 2879900210" maxWidth="999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EKAER jelentésre kötelezett</source>
+          <source>Is it Applicable for EKAER Sending?</source>
           <note from="Developer" annotates="general" priority="2" />
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension - Field</note>
         </trans-unit>
